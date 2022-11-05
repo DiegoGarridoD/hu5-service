@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hu5-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/bdmicros
+    username: root
+    password: secreto
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
