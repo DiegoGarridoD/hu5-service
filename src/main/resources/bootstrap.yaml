@@ -6,7 +6,7 @@ spring:
       enabled: true
       uri: http://localhost:8081
   datasource:
-    url: jdbc:mysql://localhost:3306/bdmicros
+    url: jdbc:mysql://localhost:3306/bd_hu5
     username: root
     password: secreto
   jpa:
