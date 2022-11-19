@@ -15,7 +15,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/hu5")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://localhost:3001")
 public class SueldoController {
     @Autowired
     PlanillaService planillaService;
